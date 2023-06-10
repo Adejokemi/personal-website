@@ -146,7 +146,7 @@ section{
 
 
 footer {
-    margin-top: 96PX;
+    margin-top: 9.6rem;
     color: #fff;
     background-color: #333;
     text-align: center;
@@ -173,18 +173,9 @@ footer {
     html{
        font-size: 35.25%;
     }
-  }
-
-  @media(max-width: 20em){
-    html{
-        font-size: 25.25%;
-    }
     body{
         height: 100vh;
     }
-    .gallery{
-        display: grid;
-        justify-content: space-around;
-        grid-template-columns: repeat(2,2fr);
-       }
   }
+
+  
